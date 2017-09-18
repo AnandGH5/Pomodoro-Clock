@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>         
+  <head>        
+     <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> 
+  </head> 
+  <body class="container-fluid text-center">   
+    <div id="timer" class="theme">     
+      <span id="minutes" class="text"> 25</span>&nbsp:  
+      <span id="seconds" class="text">00</span>   
+       <span id="clock-play-button"class="clock-button fa fa-play" ></span>  
+   </div> 
+    <br><br>
+  <label class="switch">   
+    <input type="checkbox"/>
+    <div class="switch-btn theme" onclick="switcher(this)" disabled="true"></div> 
+  </label>           
+      <div id="workbreadframe">         
+        <div id="work" class="text">work</div>     
+        <span id="workplus"class="theme-plus">+   
+        </span> 
+       <span id="workvalue"class="theme text">25</span>  
+       <span id="workminus"class="theme-minus">-</span>  
+       <br><br><br> 
+       <div id="break"class="text">break</div>
+       <span id="breakplus"class="theme-plus">+</span>   
+       <span id="breakvalue"class="theme text">05</span>
+        <span id="breakminus"class="theme-minus">-</span> 
+   </div>
+  </body> 
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
