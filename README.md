@@ -6,4 +6,4 @@ This site is published at https://anandgh5.github.io/Pomodoro-Clock/
 
 A Pen created at CodePen.io. You can find this one at http://codepen.io/SiegAn/pen/MoZGYQ.
 
-This project is tested with Browserstack
+This project is tested with Browsesasdfrstack
